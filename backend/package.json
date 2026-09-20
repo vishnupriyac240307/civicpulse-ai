@@ -1,0 +1,19 @@
+{
+  "name": "civicpulse-ai-backend",
+  "version": "1.0.0",
+  "description": "CivicPulse AI Backend API",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node utils/seed.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1",
+    "mongodb-memory-server": "^9.2.0"
+  }
+}
